@@ -417,8 +417,19 @@ screen main_menu():
             text "[config.version]":
                 style "main_menu_version"
 
-    imagebutton auto("gui/menu/github_%s.png") align(0.931, 0.015) action OpenURL("https://github.com/LiT-BRo/TheSpaceAmongUs")
-    imagebutton auto("gui/menu/discord_%s.png") align(0.993, 0.015) action OpenURL("https://discord.io/EXPLOREREXE")
+    imagebutton:
+        align(0.931, 0.015)
+        auto("gui/menu/github_%s.png")
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
+        action OpenURL("https://github.com/LiT-BRo/TheSpaceAmongUs")
+
+    imagebutton:
+        align(0.993, 0.015)
+        auto("gui/menu/discord_%s.png")
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
+        action OpenURL("https://discord.io/EXPLOREREXE")
 
 
 style main_menu_frame is empty
