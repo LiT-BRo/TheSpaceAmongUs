@@ -5,6 +5,8 @@ screen SpaceBack(): # Back button to bg space
         xoffset 1750
         yoffset 50
         auto "gui/buttons/back_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("start")
 
 screen SolarBack(): # Back button to bg space
@@ -14,6 +16,8 @@ screen SolarBack(): # Back button to bg space
         xoffset 1750
         yoffset 50
         auto "gui/buttons/back_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("solar_pressed")
 
 screen solar_button:
@@ -23,6 +27,8 @@ screen solar_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("solar_more")
 
 screen mercury_button:
@@ -32,6 +38,8 @@ screen mercury_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("mercury_more")
 
 screen venus_button:
@@ -41,6 +49,8 @@ screen venus_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("venus_more")
 
 screen earth_button:
@@ -50,6 +60,8 @@ screen earth_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("earth_more")
 
 screen mars_button:
@@ -59,6 +71,8 @@ screen mars_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("mars_more")
 
 screen jupiter_button:
@@ -68,6 +82,8 @@ screen jupiter_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("jupiter_more")
 
 screen saturn_button:
@@ -77,6 +93,8 @@ screen saturn_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("saturn_more")
 
 screen uranus_button:
@@ -86,6 +104,8 @@ screen uranus_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("uranus_more")
 
 screen neptune_button:
@@ -95,6 +115,8 @@ screen neptune_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("neptune_more")
 
 screen sun_button:
@@ -104,6 +126,8 @@ screen sun_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("sun_more")
 
 screen milkyway_button:
@@ -113,6 +137,8 @@ screen milkyway_button:
         xoffset -50
         yoffset -50
         auto "gui/buttons/more_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("milkyway_more")
 
 # # # # This ends the game.
@@ -124,6 +150,8 @@ screen Finish():
         xoffset 10
         yoffset -10
         auto "gui/buttons/finish_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("complete")
 
 screen Endscreen():
@@ -133,6 +161,8 @@ screen Endscreen():
         xoffset 10
         yoffset -10
         auto "gui/buttons/quit_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("endscreen")
 
 screen outro:
