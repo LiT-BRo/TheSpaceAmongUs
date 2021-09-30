@@ -6,7 +6,7 @@ init:
     image side neil_astro = im.Scale("images/characters/neil astro.png", 235, 235, xoffset=180, yoffset=-50)
 
     image intro = "gui/intro.png"
-    image bg outro = Movie(play="gui/outro.webm")
+    image bg outro = Movie(play="gui/outro.webm", loop=False)
 
     image bg space = Movie(play="bg space.webm")
     image bg mercury = Movie(play="planets/bg mercury.webm")
