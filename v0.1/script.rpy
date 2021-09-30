@@ -1,5 +1,5 @@
 ﻿init:
-    define slowdiss = Dissolve(0.2)
+    define slowdiss = Dissolve(0.8)
     define diss = Dissolve(0.4)
     pass
 
@@ -21,6 +21,7 @@ label start: #Scene 1 - Space
     if seen_space: # 2  # If been here dont show transition
         scene bg space
         show screen SolarUI
+        show screen Endscreen() # Quit Button
 
     if not seen_milkyway and seen_space == True: # 2  #Following the Location Planning
         pause(1)
@@ -28,9 +29,7 @@ label start: #Scene 1 - Space
         a "Now, see that galaxy at the top? Click on it and let's travel to The Milky Way!"
         call screen MilkyUI()
 
-    if seen_solar == True and seen_milkyway == True: #End Screen Buttons
-        show screen Endscreen()
-    if seen_total == 12: #Completed Button
+    if seen_total == 12: # Finish Button
         hide screen Endscreen
         show screen Finish()
 
@@ -83,7 +82,7 @@ label solar_pressed:
         show screen solar_button with slowdiss
 
     show screen SolarSystem()
-    call screen SpaceBack()
+    call screen SpaceBack() with diss
 
 
 label solar_more:
@@ -432,9 +431,11 @@ label endscreen:
     hide screen MilkyUI
     hide screen Endscreen
     hide screen Finish
-    scene bg outro
-    a "Thank you for playing the game, do make sure to check our GitHub for further updates..."
-    call screen invis_return
+    scene black with slowdiss
+    a "Thank you for playing The Space Among Us, do make sure to check our GitHub for further updates...\n(Click to Continue)"
+    scene bg outro with slowdiss
+    pause(23)
+    n "(Click to end game.)"
     return
 
 label complete:
@@ -442,10 +443,12 @@ label complete:
     hide screen MilkyUI
     hide screen Endscreen
     hide screen Finish
-    scene bg outro
+    scene black with slowdiss
     a "Congratulations! You've completed the game..."
-    a "Thank you for playing the game, do make sure to check our GitHub for further updates..."
-    call screen invis_return
+    a "Thank you for playing The Space Among Us, do make sure to check our GitHub for further updates...\n(Click to Continue)"
+    scene bg outro with diss
+    pause(23)
+    n "(Click to end game.)"
     return
 
 label splashscreen:
