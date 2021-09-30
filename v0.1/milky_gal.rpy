@@ -11,12 +11,6 @@ screen MilkyUI():
         xoffset 0
         yoffset 0
         auto "elements/galaxy_%s.png"
-        action Jump("milkyway_pressed")
-
-screen MilkyWay():
-
-    imagebutton: #Milky-Way-Core (Center)
-        xalign 0.5
-        yalign 0.5
-        auto "elements/buttons/milkyway_%s.png"
+        hover_sound "gui/audio/mouse_hover.ogg"
+        activate_sound "gui/audio/mouse_click.ogg"
         action Jump("milkyway_pressed")
