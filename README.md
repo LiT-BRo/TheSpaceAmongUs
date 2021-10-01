@@ -22,7 +22,7 @@
 #### **A complete [installation guide](https://drive.google.com/file/d/1ZAxY01ksJ3FJ7rRuWw07btA3TaAFKo2D/view?usp=sharing) for the game is uploaded on cloud.**
 
 ## Instructions
-#### **The game prompts the user with instructions to follow, on the go. Hence, an additional guide for instructions is unnecesary.**
+#### **The game prompts the user with instructions to follow, on the go. Hence, an additional guide for instructions is unnecessary.**
 
 ## Apparatuses
  A vast variety of programs/tool have been used to build this project. The list goes as follows:
