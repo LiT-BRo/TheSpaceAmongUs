@@ -5,13 +5,13 @@
 
 ## Change-Log [(Download Latest-Version)](https://drive.google.com/drive/folders/1TrncfCGLXD3FZxwssxjhGMTJ5KSU1zK7?usp=sharing)
 
-> ### [v0.1 (Bug-Fixed)](https://github.com/LiT-BRo/TheSpaceAmongUs/tree/main/v0.1) (30-09-21):
+> ### [v0.1 (Bug-Fixed)](https://github.com/LiT-BRo/TheSpaceAmongUs/tree/main/v0.1%20(Bug%20Fixed)) (30-09-21):
 > - **[Bug]:** *End-Credits looping restricted.*
 > - **[Logic]:** *Game logic improved.*
 > - **Credits:** *Edited end-credits.*
 > - **Code:** *Game updated with 200 lines of code.*
 
-> ### [v0.1](https://github.com/LiT-BRo/TheSpaceAmongUs/tree/main/v0.1) (29-09-21):
+> ### [v0.1](https://github.com/LiT-BRo/TheSpaceAmongUs/tree/main/v0.1%20(Bug%20Fixed)) (29-09-21):
 > - **Main-Release:** *Initial game v0.1 intoduced.*
 > - **Code:** *Game intoduced with 2800 lines of code.*
 
