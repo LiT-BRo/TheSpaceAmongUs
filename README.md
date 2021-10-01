@@ -25,7 +25,7 @@
 #### **The game prompts the user with instructions to follow, on the go. Hence, an additional guide for instructions is unnecessary.**
 
 ## Apparatuses
- A vast variety of programs/tool have been used to build this project. The list goes as follows:
+ A vast variety of programs/tools have been used to build this project. The list goes as follows:
  - Ren'Py (Engine)
  - Python (Language)
  - Blender (Visuals)
