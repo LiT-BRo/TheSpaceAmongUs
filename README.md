@@ -1,7 +1,7 @@
 <img align="center" src="https://github.com/LiT-BRo/TheSpaceAmongUs/blob/main/Misc/TSAU%20Cover%20Banner.gif?raw=true" alt="Cover Banner"/>
 
 ## About 
-**The objective** of the game is to promote and encourage an enthusiastic approach towards space from the younger minds outside of the world of books, not just with words but provoke them with thoughts which with appealing visuals provides a pleasing environment without missing out on the interactive perspective of learning.
+**The objective** of the game is to promote and encourage an enthusiastic approach towards space from the younger minds outside of the world of books, not just with words but provoke them with thoughts which with appealing visuals, provides a pleasing environment without missing out on the interactive perspective of learning.
 
 ## Change-Log [(Download Latest-Version)](https://drive.google.com/drive/folders/1TrncfCGLXD3FZxwssxjhGMTJ5KSU1zK7?usp=sharing)
 
