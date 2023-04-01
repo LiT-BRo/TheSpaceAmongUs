@@ -33,4 +33,4 @@ A vast variety of programs/tools have been used to build this project. The list 
 > - PowerPoint (Concept, Credits)
 > - Adobe After-Effects (Visuals)
 > - Adobe Photoshop (Visual Elements)
-> - Adobe Illustartor (Visual Elements)
+> - Adobe Illustrator (Visual Elements)
